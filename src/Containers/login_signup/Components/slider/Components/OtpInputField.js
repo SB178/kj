@@ -10,9 +10,16 @@ const OtpInputField = () => {
       onChange={setOTP}
       className="ContainerStyle"
       inputClassName="ContainerInputStyle"
-      // inputStyles={{
-      //   height: "3vw",
-      // }}
+      inputStyles={{
+        height: "3vw",
+        margin: "0.5vw",
+        display: "flex",
+        justifyContent: "center",
+      }}
+      style={{
+        display: "flex",
+        justifyContent: "center"
+      }}
       OTPLength={6}
       otpType="number"
       autoComplete="false"

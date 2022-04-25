@@ -185,11 +185,13 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 .helperTextPage2{
   position: relative;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width:15vw;
   margin: 0vw;
   color: var(--primary-color);
@@ -202,8 +204,7 @@
 }
 .helperOtp{
   position: relative;
-  
   width:20vw;
   height: 10vw;
-  
+  justify-content: center;
 }

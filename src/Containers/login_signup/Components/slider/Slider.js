@@ -19,7 +19,7 @@ const HelperTextPage2 = () => {
           </li>
         </ul>
       </div>
-      {/* <div className="helperOtp"><OtpInputField /></div> */}
+      <div className="helperOtp"><OtpInputField /></div>
     </div>
   );
 };
@@ -60,7 +60,7 @@ const Slider = ({ sliderData, handler, key }) => {
           }
         >
           <h3 className="sliderSignupHeadingMove">Hello Human!</h3>
-          {/* <div className="sliderSignupMainContainer">
+          <div className="sliderSignupMainContainer">
             <h5 className="sliderSignupMain">Enter your personal info</h5>
             <h5 className="sliderSignupMain">and start journey</h5>
             <h5 className="sliderSignupMain sliderFocused">with Telly</h5>
@@ -70,8 +70,8 @@ const Slider = ({ sliderData, handler, key }) => {
             <ButtonBase id="SigninButton" onClick={() => handler(key)}>
               SIGNIN
             </ButtonBase>
-          </div> */}
-          {HelperTextPage2()}
+          </div>
+          {/* {HelperTextPage2()} */}
         </div>
       }
     </div>
