@@ -1,0 +1,11 @@
+.mainBackground{
+  z-index: 0;
+}
+.mainbox{
+  /* position:absolute; */
+  top: 0%;
+  z-index: 1;
+}
+.slider{
+  z-index: 2;
+}

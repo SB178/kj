@@ -1,0 +1,38 @@
+@font-face {
+  font-family: Montserrat Medium;
+  src: url("../../../../../assests/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: Montserrat Bold;
+  src: url("../../../../../assests/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: Montserrat Light;
+  src: url("../../../../../assests/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: Montserrat Thin;
+  src: url("../../../../../assests/Montserrat-Thin.ttf");
+}
+
+.ContainerStyle {
+  width: 10vw;
+  height: 7vw;
+  padding: 1vw;
+  background-color: red;
+}
+.ContainerInputStyle {
+  width: 4vw;
+  height: 10vw;
+  background-color:#84ADEE;
+  border: 0px;
+  border-radius: 0.5vw;
+  outline: 0px;
+  font-family: Montserrat Medium;
+  font-size: 1.5vw;
+  color: #FFFFFF;
+}
+.OTP{
+  position: relative;
+  justify-content: center;
+}

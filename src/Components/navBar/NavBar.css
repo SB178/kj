@@ -1,0 +1,85 @@
+@font-face {
+	font-family: Montserrat Medium;
+	src: url('../../assests/Montserrat-Medium.ttf');
+}
+@font-face {
+	font-family: Montserrat Bold;
+	src: url('../../assests/Montserrat-Bold.ttf');
+}
+@font-face {
+	font-family: Montserrat Light;
+	src: url('../../assests/Montserrat-Light.ttf');
+}
+:root{
+	--selection-color: #0C4DB5;
+	--non-selection-color: #979292;
+	--background-color: #EEEEEE;
+	--secondary-color: #3E82EE;
+	--primary-color: #FFFFFF;
+	--dark-grey: #333333;
+}
+
+/* *{
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat Medium;
+	user-select: none;
+	color: var( --non-selection-color);
+}
+.body{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+} */
+
+.navBarShown{
+  	position: sticky;
+	top:0;
+	left: 0;
+	display:flex;
+	background-color: var(--primary-color);
+	flex-direction: column;
+	width: 16vw;
+	padding-top: 1vw;
+	overflow-x:hidden;
+	transition: ease-in-out, 0.4s;
+}
+
+.navBarHidden{
+	position: sticky;
+	top:0;
+	left: 0;
+	display:flex;
+	background-color: var(--primary-color);
+	flex-direction: column;
+	width:3.9vw;
+	padding-top: 1vw;
+	overflow-x:hidden;
+	transition: all 0.4s ease-in-out;
+}
+
+.navBarContent{
+	display: flex;
+	flex-direction: row;
+	padding: 0.5vw 0 0.5vw 0 ;
+	margin: 10 0 1vw 0 ;
+}
+.material-icons{
+	position: relative;
+	/* padding-top: 0.1vw; */
+	padding-left: 1.2vw;
+	padding-right: 1.2vw;
+}
+
+.navBarContentText{
+	position: relative;
+	font-size: 1.2vw;
+}
+
+.navBarActive{
+	color: var(--selection-color);
+}
+.navBarActiveWrapper{
+	border-left: 0.4vw solid var(--selection-color);
+	box-shadow: 11px 11px 16px #00000026;
+}
