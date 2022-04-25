@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import "../Styles.css";
-import {InputLabel, MenuItem } from "@mui/material";
+import { InputLabel, MenuItem } from "@mui/material";
 import { FormControl } from "@mui/material";
 import FormHelperText from "@mui/material/FormHelperText";
 import Select from "@mui/material/Select";
@@ -8,8 +8,9 @@ import OutlinedInput from "@mui/material/OutlinedInput";
 import InputAdornment from "@mui/material/InputAdornment";
 
 const Page1 = () => {
-
   const [location, setLocation] = React.useState("");
+
+
 
   const handleChange = (event) => {
     setLocation(event.target.value);
@@ -19,7 +20,13 @@ const Page1 = () => {
       <FormControl>
         <div className="mainboxSignupLocationContainer">
           <InputLabel id="mainboxSignupLabelLocation">Location</InputLabel>
-          <Select fullWidth id="mainboxSignupLocation" onChange={handleChange}>
+          <Select
+            fullWidth
+            id="mainboxSignupLocation"
+            onChange={handleChange}
+            value={location}
+            renderValue={(val) => val}
+          >
             <MenuItem value={"w"}>w</MenuItem>
             <MenuItem value={"x"}>x</MenuItem>
             <MenuItem value={"y"}>y</MenuItem>
@@ -70,6 +77,6 @@ const Page1 = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Page1
+export default Page1;

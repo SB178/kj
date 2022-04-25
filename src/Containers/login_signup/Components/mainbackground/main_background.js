@@ -4,7 +4,7 @@ import Particles from "react-tsparticles";
 import ParticleCircleConfig from './Components/ParticleCircleConfig';
 import ParticleCustomShapeConfig from './Components/ParticleCustomShapeConfig';
 
-function mainbackground() {
+function Mainbackground() {
   const particlesInit = async (main) => {
     console.log(main);
   };
@@ -35,4 +35,4 @@ function mainbackground() {
   );
 }
 
-export default mainbackground
+export default React.memo(Mainbackground);

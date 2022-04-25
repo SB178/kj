@@ -20,19 +20,19 @@ const Mainbox = ({ sliderData, handler, key }) => {
       case 1:
         return (
           <div>
-            <SignupPage1 />
+            <SignupPage1/>
           </div>
         );
       case 2:
         return (
           <div>
-            <SignupPage2 />
+            <SignupPage2/>
           </div>
         );
       case 3:
         return (
           <div>
-            <SignupPage3 />
+            <SignupPage3/>
           </div>
         );
       case 4:

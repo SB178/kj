@@ -1,6 +1,6 @@
-import React from 'react'
+import React from "react";
 import "../Styles.css";
-import {InputLabel, MenuItem } from "@mui/material";
+import { InputLabel, MenuItem } from "@mui/material";
 import { FormControl } from "@mui/material";
 import FormHelperText from "@mui/material/FormHelperText";
 import Select from "@mui/material/Select";
@@ -10,7 +10,6 @@ import DeleteIcon from "@mui/icons-material/Delete";
 import { ButtonBase } from "@mui/material";
 
 const Page1 = () => {
-
   const [location, setLocation] = React.useState("");
   // const handleChange = (event: SelectChangeEvent) => {
   //     setLocation(event.target.value as string);
@@ -20,26 +19,37 @@ const Page1 = () => {
     setLocation(event.target.value);
   };
 
-  const [fileName, setFileName] = React.useState("");
-  const [isFile, setIsFile] = React.useState(false);
+  const [file, setFile] = React.useState(null);
+  const fileInputRef = React.useRef(null);
+
 
   const fileHandler = (event) => {
-    setFileName(event.target.files[0]);
-    setIsFile((e) => !e);
+    console.log("triggered: ", event.target.files[0]);
+    setFile(event.target.files[0]);
   };
 
-  const showFile = (isFile, fileName) => {
+  const showFile = (fileName) => {
     return (
-      isFile && (
-        <div className="mainboxSignupReqFileLog">
-          <h5>Hello.pdf{fileName}</h5>
-          <ButtonBase onChange={fileHandler}>
-            <DeleteIcon />
-          </ButtonBase>
-        </div>
-      )
+      <div className="mainboxSignupReqFileLog">
+        <h5>{fileName}</h5>
+        <ButtonBase
+          onClick={() => {
+            fileInputRef.current.value='';
+            return setFile(null);
+          }}
+        >
+          <DeleteIcon />
+        </ButtonBase>
+      </div>
     );
   };
+
+  const fileCategories = [
+    {
+      value: "Adhaar Card",
+      displayValue:"Adhaar Card"
+    }
+  ]
 
   return (
     <div>
@@ -68,10 +78,11 @@ const Page1 = () => {
           <FormControl>
             <InputLabel id="mainboxSignupLabelReqFile">Document</InputLabel>
             <Select fullWidth id="mainboxSignupReqFile" onChange={handleChange}>
-              <MenuItem value={"Adhaar Card"}>Adhaar Card</MenuItem>
+              {fileCategories?.map((item) => <MenuItem value={item?.value}>{ item?.displayValue||""}</MenuItem>)}
+              {/* <MenuItem value={"Adhaar Card"}>Adhaar Card</MenuItem>
               <MenuItem value={"Pan Card"}>Pan Card</MenuItem>
               <MenuItem value={"Voter ID Card"}>Voter ID Card</MenuItem>
-              <MenuItem value={"Passport"}>Passport</MenuItem>
+              <MenuItem value={"Passport"}>Passport</MenuItem> */}
             </Select>
             <FormHelperText>
               PLEASE make a single PDF file(.pdf) providing photo of both side.
@@ -80,21 +91,24 @@ const Page1 = () => {
         </div>
         <div className="mainboxReqFileButtonContiainer">
           <FormControl>
-            <ButtonBase id="mainboxReqFileButton" component="label">
+            <ButtonBase id="mainboxReqFileButton" component="label" disabled={!location?.trim() || file}>     
               <AddCircleOutlineIcon fontSize="large" />
               <input
                 type="file"
-                accept="application/pdf"
+                accept="application/pdf"                
                 hidden
-                onClick={fileHandler}
+                onChange={(e) => 
+                  setFile(e.target.files[0])
+                }
+                ref={fileInputRef}
               />
             </ButtonBase>
           </FormControl>
         </div>
       </div>
-      {showFile(isFile, fileName)}
+      {file ? showFile(file.name) : null}
     </div>
   );
-}
+};
 
-export default Page1
+export default Page1;

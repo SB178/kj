@@ -1,18 +1,18 @@
 @font-face {
   font-family: Montserrat Medium;
-  src: url("../../../../../assests/Montserrat-Medium.ttf");
+  src: url("/src/assests/Montserrat-Medium.ttf");
 }
 @font-face {
   font-family: Montserrat Bold;
-  src: url("../../../../../assests/Montserrat-Bold.ttf");
+  src: url("/src/assests/Montserrat-Bold.ttf");
 }
 @font-face {
   font-family: Montserrat Light;
-  src: url("../../../../../assests/Montserrat-Light.ttf");
+  src: url("/src/assests/Montserrat-Light.ttf");
 }
 @font-face {
   font-family: Montserrat Thin;
-  src: url("../../../../../assests/Montserrat-Thin.ttf");
+  src: url("/src/assests/Montserrat-Thin.ttf");
 }
 
 .ContainerStyle {

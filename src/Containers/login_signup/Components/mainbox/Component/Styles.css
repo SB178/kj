@@ -1,18 +1,18 @@
 @font-face {
   font-family: Montserrat Medium;
-  src: url("../../../../../assests/Montserrat-Medium.ttf");
+  src: url("/src/assests/Montserrat-Medium.ttf");
 }
 @font-face {
   font-family: Montserrat Bold;
-  src: url("../../../../../assests/Montserrat-Bold.ttf");
+  src: url("/src/assests/Montserrat-Bold.ttf");
 }
 @font-face {
   font-family: Montserrat Light;
-  src: url("../../../../../assests/Montserrat-Light.ttf");
+  src: url("/src/assests/Montserrat-Light.ttf");
 }
 @font-face {
-	font-family: Montserrat Thin ;
-	src: url('../../../../../assests/Montserrat-Thin.ttf');
+  font-family: Montserrat Thin;
+  src: url("/src/assests/Montserrat-Thin.ttf");
 }
 :root {
   --selection-color: #0c4db5;
@@ -101,7 +101,7 @@
 #mainboxSignupLabelName,
 #mainboxSignupLabelAddress,
 #mainboxSignupLabelReqFile {
-  align-items: center;
+  align-items: center !important;
   background-color: var(--primary-color);
   font-family: Montserrat Medium;
   font-weight: 400;

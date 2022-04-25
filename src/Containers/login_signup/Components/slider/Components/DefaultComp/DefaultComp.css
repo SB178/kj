@@ -14,7 +14,6 @@
   font-family: Montserrat Thin;
   src: url("/src/assests/Montserrat-Thin.ttf");
 }
-
 :root{
 	--selection-color: #0C4DB5;
 	--non-selection-color: #979292;

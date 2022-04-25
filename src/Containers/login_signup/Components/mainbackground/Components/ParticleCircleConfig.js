@@ -8,7 +8,7 @@ const ParticleCircleConfig = {
   interactivity: {
     events: {
       onHover: {
-        enable: false,
+        enable:false,
         mode: "repulse",
       },
       resize: true,
@@ -44,7 +44,7 @@ const ParticleCircleConfig = {
         default: "bounce",
       },
       random: false,
-      speed: 0.2,
+      speed: 0.4,
       straight: false,
     },
     number: {

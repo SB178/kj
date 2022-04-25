@@ -15,10 +15,12 @@ const OtpInputField = () => {
         margin: "0.5vw",
         display: "flex",
         justifyContent: "center",
+        alignItems: "center",
       }}
       style={{
         display: "flex",
-        justifyContent: "center"
+        justifyContent: "center",
+        alignItems: "center",
       }}
       OTPLength={6}
       otpType="number"
