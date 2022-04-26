@@ -88,6 +88,7 @@
   color: var(--primary-color);
   font-family: Montserrat Medium;
   font-size: 2vw;
+  
 }
 .sliderSigninMain{
   display: flex;
@@ -180,7 +181,7 @@
   padding: 0.7vw 2vw; 
   margin-top: 3vw;
 }
-
+/* 
 .helperArea{
   position: relative;
   display: flex;
@@ -203,10 +204,10 @@
   margin-top: 1vw;
 }
 .helperOtp{
-  /* position: relative; */
+  position: relative;
   display: flex;
   width:20vw;
   height: 10vw;
   justify-content: center;
   align-items: center;
-}
+} */

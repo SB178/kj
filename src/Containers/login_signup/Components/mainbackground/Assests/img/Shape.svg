@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2261.241" height="1743.832" viewBox="0 0 2261.241 1743.832">
+  <g id="Shape" transform="translate(308 507.832)">
+    <circle id="Ellipse_40" data-name="Ellipse 40" cx="356" cy="356" r="356" transform="translate(-308 524)" fill="#3e82ee" opacity="0.6"/>
+    <circle id="Ellipse_51" data-name="Ellipse 51" cx="35.5" cy="35.5" r="35.5" transform="translate(1784 540)" fill="#3e82ee"/>
+    <circle id="Ellipse_41" data-name="Ellipse 41" cx="25" cy="25" r="25" transform="translate(808 735)" fill="#3e82ee" opacity="0.7"/>
+    <circle id="Ellipse_43" data-name="Ellipse 43" cx="25" cy="25" r="25" transform="translate(522 309.765) rotate(169)" fill="#3e82ee" opacity="0.4"/>
+    <circle id="Ellipse_42" data-name="Ellipse 42" cx="9" cy="9" r="9" transform="translate(504 964)" fill="#3e82ee"/>
+    <circle id="Ellipse_44" data-name="Ellipse 44" cx="9" cy="9" r="9" transform="translate(176.738 286.56) rotate(169)" fill="#3e82ee"/>
+    <path id="Polygon_2" data-name="Polygon 2" d="M53.333,36.5c2.627-9.92,16.706-9.92,19.333,0L79,60.414a10,10,0,0,0,2.622,4.537L99.157,82.356c7.286,7.232.248,19.435-9.661,16.749l-23.88-6.473a10,10,0,0,0-5.232,0L36.5,99.105c-9.909,2.686-16.947-9.517-9.661-16.749L44.378,64.951A10,10,0,0,0,47,60.414Z" transform="translate(1701.402 1018.01) rotate(-45)" fill="#3e82ee"/>
+    <path id="Polygon_9" data-name="Polygon 9" d="M37.549,32.858c1.549-7.428,12.156-7.428,13.705,0l2.224,10.662a7,7,0,0,0,2.187,3.79l8.127,7.265c5.656,5.056.352,14.24-6.854,11.868L46.591,63.037a7,7,0,0,0-4.378,0L31.865,66.443c-7.206,2.372-12.51-6.811-6.854-11.868l8.127-7.265a7,7,0,0,0,2.187-3.79Z" transform="translate(715.487 -1.675) rotate(75)" fill="#3e82ee"/>
+    <path id="Polygon_1" data-name="Polygon 1" d="M280.462,78.038c20.013-34.677,70.062-34.677,90.075,0l235.451,407.97C626,520.674,600.977,564,560.951,564H90.049C50.024,564,25,520.674,45.012,486.008Z" transform="translate(1172 -328.392) rotate(-16)" fill="#3e82ee" opacity="0.6"/>
+    <path id="Polygon_3" data-name="Polygon 3" d="M199.267,18.022a14,14,0,0,1,23.466,0L407.913,302.472A14,14,0,0,1,396.18,324.11H25.82a14,14,0,0,1-11.733-21.638Z" transform="translate(211.933 -166.501) rotate(72)" fill="#3e82ee" opacity="0.88"/>
+    <path id="Polygon_5" data-name="Polygon 5" d="M86.322,10.125a8,8,0,0,1,13.356,0l78.14,118.47A8,8,0,0,1,171.14,141H14.86a8,8,0,0,1-6.678-12.4Z" transform="translate(1434.104 706.424) rotate(18)" fill="#3e82ee" opacity="0.4"/>
+    <path id="Polygon_8" data-name="Polygon 8" d="M86.322,10.125a8,8,0,0,1,13.356,0l78.14,118.47A8,8,0,0,1,171.14,141H14.86a8,8,0,0,1-6.678-12.4Z" transform="translate(817.009 923) rotate(45)" fill="#3e82ee"/>
+    <circle id="Ellipse_47" data-name="Ellipse 47" cx="4.5" cy="4.5" r="4.5" transform="translate(1197 65)" fill="#3e82ee"/>
+    <circle id="Ellipse_52" data-name="Ellipse 52" cx="4.5" cy="4.5" r="4.5" transform="translate(1611 347)" fill="#3e82ee"/>
+    <circle id="Ellipse_50" data-name="Ellipse 50" cx="10.5" cy="10.5" r="10.5" transform="translate(1837 188)" fill="#3e82ee" opacity="0.85"/>
+  </g>
+</svg>

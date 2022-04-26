@@ -1,36 +1,19 @@
 import React from 'react'
 import './main_background.css'
-import Particles from "react-tsparticles";
-import ParticleCircleConfig from './Components/ParticleCircleConfig';
-import ParticleCustomShapeConfig from './Components/ParticleCustomShapeConfig';
+import ParticlesCircles from './Components/ParticlesCircles/ParticlesCircles';
+import backgroundsvg from "./Assests/img/Shape.svg";
+
 
 function Mainbackground() {
-  const particlesInit = async (main) => {
-    console.log(main);
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  }
   return (
     <div>
-      <div className="">
-        <Particles
-          id="tsparticles"
-          init={particlesInit}
-          loaded={particlesLoaded}
-          options={ParticleCircleConfig}
-        />
+      <div className="ParticlesCircles">
+        <ParticlesCircles />
       </div>
-      {/* <div>
-        <Particles
-          id="tsparticles"
-          init={particlesInit}
-          loaded={particlesLoaded}
-          options={ParticleCustomShapeConfig}
-        />
-      </div> */}
-      <div className="mainBackground"></div>
+
+      <div className="mainBackground">
+        {/* <backgroundsvg/> */}
+      </div>
     </div>
   );
 }

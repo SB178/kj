@@ -1,4 +1,4 @@
-const ParticleCustomShapeConfig = {
+const ParticleCircleConfig = {
   background: {
     color: {
       value: "#EEEEEE",
@@ -44,7 +44,7 @@ const ParticleCustomShapeConfig = {
         default: "bounce",
       },
       random: false,
-      speed: 0.2,
+      speed: 0.4,
       straight: false,
     },
     number: {
@@ -52,6 +52,7 @@ const ParticleCustomShapeConfig = {
         enable: true,
         area: 1080,
       },
+      // limit:5,
       value: 5,
     },
     opacity: {
@@ -61,7 +62,10 @@ const ParticleCustomShapeConfig = {
       },
     },
     shape: {
-      type: "triangle",
+      type: ["circle", "image"],
+      image: {
+        src: "./",
+      },
     },
     size: {
       value: { min: 1, max: 20 },
@@ -69,4 +73,4 @@ const ParticleCustomShapeConfig = {
   },
   detectRetina: true,
 };
-export default ParticleCustomShapeConfig;
+export default ParticleCircleConfig;

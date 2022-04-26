@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Montserrat Medium;
+  src: url("/src/assests/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: Montserrat Bold;
+  src: url("/src/assests/Montserrat-Bold.ttf");
+}
+@font-face {
+  font-family: Montserrat Light;
+  src: url("/src/assests/Montserrat-Light.ttf");
+}
+@font-face {
+  font-family: Montserrat Thin;
+  src: url("/src/assests/Montserrat-Thin.ttf");
+}
+
+:root {
+  --selection-color: #0c4db5;
+  --non-selection-color: #979292;
+  --background-color: #eeeeee;
+  --secondary-color: #3e82ee;
+  --primary-color: #ffffff;
+  --dark-grey: #333333;
+}
+
+.helperArea {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.helperTextPage2Container {
+  display: flex;
+  justify-content: center;
+  padding: 2vw 0vw;
+}
+.helperTextPage2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 15vw;
+  margin: 0vw;
+  color: var(--primary-color);
+  font-family: Montserrat Thin;
+  font-size: 1.2vw;
+  font-weight: 100;
+}
+.helperTextPage2Li {
+  margin-top: 1vw;
+}
+.HelperOtpHeading {
+  font-family: Montserrat Medium;
+  font-size: 1.5vw;
+  color: var(--primary-color);
+}
+.helperOtp {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  height: 10vw;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0vw 1vw;
+}
+#HelperOtpButton {
+  font-family: Montserrat Bold;
+  font-size: 1.4vw;
+  color: var(--primary-color);
+  border-radius: 2vw;
+  border: 0.1vw solid white;
+  padding: 0.7vw 2vw;
+}

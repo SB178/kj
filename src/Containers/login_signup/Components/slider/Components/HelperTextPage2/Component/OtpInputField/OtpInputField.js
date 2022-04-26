@@ -24,7 +24,7 @@ const OtpInputField = () => {
       }}
       OTPLength={6}
       otpType="number"
-      autoComplete="false"
+      autoComplete="off"
       disabled={false}
     />
   );

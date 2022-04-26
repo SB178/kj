@@ -1,15 +1,9 @@
 import React from "react";
 import "./slider.css";
-import OtpInputField from "./Components/OtpInputField/OtpInputField";
+import HelperTextPage2 from "./Components/HelperTextPage2/HelperTextPage2";
 import DefaultComp from "./Components/DefaultComp/DefaultComp";
 // import { useTransition, animated } from "react-spring";
-const HelperTextPage2 = () => {
-  return (
-    <div className="helperArea">
-      
-    </div>
-  );
-};
+
 
 const Slider = ({ sliderData, handler, key }) => {
   return (
@@ -35,8 +29,8 @@ const Slider = ({ sliderData, handler, key }) => {
           }
         >
           <h3 className="sliderSignupHeadingMove">Hello Human!</h3>
-          <DefaultComp key={key} handler={handler} />
-          {/* {HelperTextPage2()} */}
+          {/* <DefaultComp key={key} handler={handler} /> */}
+          <HelperTextPage2/>
         </div>
       }
     </div>

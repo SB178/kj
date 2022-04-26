@@ -1,8 +1,17 @@
-.mainBackground{
-  background: url("../assets/img/background.png");
-  /* background: rgba(255,0,0,0.2); */
-  position: relative;
+.ParticlesCircles {
+  position: absolute;
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -4;
+}
+
+.mainBackground {
+  background: url("../assets/img/background.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  
+  width: 100vw;
+  height: 100vh;
 }
